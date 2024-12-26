@@ -10,9 +10,9 @@ public class HomeTest extends BaseTest {
 	public void AmazonHomepage() {
 	//obj3.securitycode();
 		obj1.Click();
-		obj1.EnterEmail("greeshmaraj96@gmail.com");
+		obj1.EnterEmail("Emailid");
 		obj1.SubmitEmail();
-		obj1.EnterPass("Greeshma@123");
+		obj1.EnterPass("password");
 		obj1.Submit();
 	}
 
@@ -20,9 +20,9 @@ public class HomeTest extends BaseTest {
 	public void SelectProductHomePage() {
 	//obj3.securitycode();
 		obj1.Click();
-		obj1.EnterEmail("greeshmaraj96@gmail.com");
+		obj1.EnterEmail("Emailid");
 		obj1.SubmitEmail();
-		obj1.EnterPass("Greeshma@123");
+		obj1.EnterPass("password");
 		obj1.Submit();
 		obj3.Searchforproduct("iphone");
 		obj3.SelectProductandAddtoCart();
