@@ -11,9 +11,9 @@ public class SigninTest extends BaseTest {
 	public void Signin() {
 		SigninPage obj1 = new SigninPage(driver);
 		obj1.Click();
-		obj1.EnterEmail("greeshmaraj96@gmail.com");
+		obj1.EnterEmail("Email");
 		obj1.SubmitEmail();
-		obj1.EnterPass("Greeshma@123");
+		obj1.EnterPass("Password");
 		obj1.Submit();
 	}
 
@@ -32,7 +32,7 @@ public class SigninTest extends BaseTest {
 	public void PasswordAlertmessageDisplayed() {
 		//obj1.securitycode();
 		obj1.Click();
-		obj1.EnterEmail("greeshmaraj96@gmail.com");
+		obj1.EnterEmail("Email");
 		obj1.SubmitEmail();
 		obj1.Submit();
 		Assert.assertEquals(obj1.PasswordValidationDisplayed(),"Enter your password");
